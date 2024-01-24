@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.ac.uniyar.testingcourse.bookingsystem",
+    "module": "BookingSystem",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "BookingSystem-1.0.jar",
+          "url": "BookingSystem-1.0.jar",
+          "size": 2596,
+          "sha512": "0d6f9bb1d98ba428443ba748d493d0ee6a705ff7e76cf21012fcf5335b664be9745ecd23ff9c3ae24236c7f444419d7939aada8c45ec4c177e1fae1dfdf4c167",
+          "sha256": "44db4c91bdec999e742abbb0f95e36fe9fbbde05a35851504dc2cc0523a52572",
+          "sha1": "4d2eb95d8c36e34adfe4860b0dd43a03a08b0e70",
+          "md5": "fe56454019efd87b5b68ac0b289b9ecb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.0.0-jre"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.10.1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.10.1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params",
+          "version": {
+            "requires": "5.10.1"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.25.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BookingSystem-1.0.jar",
+          "url": "BookingSystem-1.0.jar",
+          "size": 2596,
+          "sha512": "0d6f9bb1d98ba428443ba748d493d0ee6a705ff7e76cf21012fcf5335b664be9745ecd23ff9c3ae24236c7f444419d7939aada8c45ec4c177e1fae1dfdf4c167",
+          "sha256": "44db4c91bdec999e742abbb0f95e36fe9fbbde05a35851504dc2cc0523a52572",
+          "sha1": "4d2eb95d8c36e34adfe4860b0dd43a03a08b0e70",
+          "md5": "fe56454019efd87b5b68ac0b289b9ecb"
+        }
+      ]
+    }
+  ]
+}
